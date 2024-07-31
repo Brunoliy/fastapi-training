@@ -9,6 +9,9 @@ python = "^3.11"
 fastapi = "^0.111.0"
 uvicorn = "^0.29.0"
 pydantic = {extras = ["email"], version = "^2.7.1"}
+sqlalchemy = "^2.0.31"
+pydantic-settings = "^2.4.0"
+alembic = "^1.13.2"
 
 [tool.poetry.dev-dependencies]
 pytest = ">=8.2.0, <9.0.0"
